@@ -44,7 +44,18 @@ namespace App.Modelo
             set { email = value; }
         }
 
-        public Persona(string id, string nombre, string direccion, string telefono, string email);
+        public Persona(string id, string nombre, string direccion, string telefono, string email)
+        {
+            this.id = id;
+            this.nombre = nombre;
+            this.direccion = direccion;
+            this.telefono = telefono;
+            this.email = email;
+
+
+        }
+
+
         public override string ToString()
         {
             return ToString() +
