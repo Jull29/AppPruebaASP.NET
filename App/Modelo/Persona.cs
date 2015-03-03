@@ -53,6 +53,8 @@ namespace App.Modelo
                         "\nId: " + this.telefono + '\n' +
                         "\nId: " + this.email +
                         "\nId: " + this.direccion;
+                        
+            //ibrateamoerelosmeirsadasdudd
         }
   
 
